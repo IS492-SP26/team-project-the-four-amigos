@@ -1,7 +1,9 @@
 # METAGPT: META PROGRAMMING FOR A MULTI -AGENT COLLABORATIVE FRAMEWORK
 
-full citation:
-link:
+full citation: Hong, S., Zhuge, M., Chen, J., Zheng, X., Cheng, Y., Wang, J., ... & Schmidhuber, J. (2023, August). MetaGPT: Meta programming for a multi-agent collaborative framework. In The twelfth international conference on learning representations.
+
+link: https://openreview.net/forum?id=VtmBAGCN7o&utm_source=chatgpt.com
+
 Summary: 
 This paper proposes MetaGPT, a multi-agent framework that organizes LLM agents using Standard Operating Procedures. 
 The key idea is that instead of loosely chaining LLM outputs, the system assigns agents structured roles, for example Product Manager, Architect, Engineer,
@@ -32,8 +34,10 @@ Idea:
 Instead of generic Business AI Agent, we can design market analysis agent, finance agent, operation sgent to work together and make business decision more reliable.
 
 #  Towards Efficient LLM Grounding for Embodied Multi-Agent Collaboration
-full citation:
-link:
+full citation: Zhang, Y., Yang, S., Bai, C., Wu, F., Li, X., Li, X., & Wang, Z. (2024). Towards Efficient LLM Grounding for Embodied Multi-Agent Collaboration. Annual Meeting of the Association for Computational Linguistics.
+
+link: https://www.semanticscholar.org/paper/Towards-Efficient-LLM-Grounding-for-Embodied-Zhang-Yang/e1b62c7ee4e22ab63e3b0c9968563e6675833e36
+
 Summary: This paper focuses on improving multi-agent LLM collaboration efficiency using Reinforced Advantage Feedback (ReAd). 
 The key problem is that current multi-agent systems rely heavily on self-reflection or environmental feedback, 
 which leads to inefficient planning and excessive LLM queries. The authors introduce a reinforcement-learning-inspired advantage function 
