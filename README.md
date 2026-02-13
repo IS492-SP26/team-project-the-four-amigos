@@ -1,4 +1,49 @@
-# team-project-the-four-amigos
-Opening a restaurant requires coordinating knowledge across market analysis, financial planning, operations design, and regulatory compliance. However, most small business founders do not have access to multidisciplinary expert teams, and existing AI tools mainly support isolated tasks such as content generation or operational automation rather than end-to-end launch planning.
+# Multi-Agent AI Assistant for Local Restaurant Launch Planning
+## Why It Matters
+Opening a restaurant is a complex, high-risk process that requires coordinating knowledge across multiple domains, including market analysis, financial planning, operations design, and regulatory awareness. Most first-time founders do not have access to expert teams across these domains and must rely on fragmented information from online searches, templates, or consultants, which can be expensive or inconsistent.
 
-This project explores whether a multi-agent AI system can assist aspiring restaurant owners by generating locally grounded, multi-domain launch plans with minimal human input, using Green Street in Champaign as a case study.
+Current AI tools mainly support isolated tasks such as writing business plans, generating marketing text, or automating restaurant operations. However, they do not provide coordinated, end-to-end decision support tailored to a specific local environment.
+
+This problem matters because:
+
+- Small businesses represent a major portion of local economies.
+- Many restaurant startups fail due to poor planning, not lack of demand.
+
+In this project, we focus on restaurant launch planning on Green Street (Champaign, IL) as a concrete real-world case study to explore how multi-agent AI can support local business decision making.
+
+## Primary Target Users
+
+- First-time restaurant founders
+- Student entrepreneurs
+- Small business owners exploring new locations
+- Non-business-background founders entering food service
+
+## Core User Tasks (What users do inside out tool)
+### Task 1 — Provide Startup Inputs
+Users enter or select:
+	•	restaurant concept (cuisine / service style)
+	•	budget range
+	•	target customers (e.g., students, faculty, local residents)
+	•	constraints (timeline, hours, dietary focus, staffing limits)
+
+Success: user finishes intake in <3 minutes and feels the tool understands their situation.
+
+### Task 2 — Review and Edit the Draft Plan (Human-in-the-loop)
+Users receive a structured draft plan (market + finance + opportunities + risks) and can:
+	•	edit assumptions (rent range, expected price point, hours)
+	•	choose priorities (low cost vs differentiation vs speed to launch)
+	•	ask follow-up questions (“what if budget is only $80k?”)
+
+Success: user can quickly correct wrong assumptions and steer the plan.
+
+### Task 3 — Generate Final Output + Export
+Users generate a final “Launch Pack” including:
+	•	feasibility summary + key assumptions
+	•	action checklist / timeline
+	•	rough cost breakdown
+	•	risk list + mitigation ideas
+
+Optional export:
+	•	Markdown / word / PDF (later) / copy-to-notes
+
+Success: user leaves with a plan they can actually use to make decisions or talk to teammates and investors.
