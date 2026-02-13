@@ -51,6 +51,8 @@ Success: user leaves with a plan they can actually use to make decisions or talk
 ## Competitive Landscape (Existing Tools + Shortcomings)
 To better understand the current ecosystem, we reviewed several AI tools that assist with startup planning or business documentation.
 ### AI Cofounder (Startup Planning Guidance Tool)
+link: https://aicofounder.com/dashboard<img width="646" height="44" alt="image" src="https://github.com/user-attachments/assets/c0d72c60-83d5-41d7-ac37-dccee8f940b9" />
+
 AI Cofounder focuses on structured startup guidance. It provides:
 - Planning checklists
 - Market research steps
@@ -69,3 +71,91 @@ Limitations
 
 As a result, it provides guidance, but not full decision support.
 
+### Canva AI Business Plan Generator
+link: https://www.canva.com/ai-business-plan-generator/<img width="898" height="44" alt="image" src="https://github.com/user-attachments/assets/dd09f553-3e2f-4224-bab2-5ed87db522ed" />
+
+Canva’s AI business plan generator focuses on documentation and formatting support.
+
+What It Does Well
+- Generates structured business plan templates
+- Helps organize financial categories
+- Produces polished documentation
+
+Limitations
+- Primarily template-based generation
+- Outputs are generic and not locally grounded
+- Does not evaluate feasibility or validate assumptions
+- No critique or multi-role reasoning process
+
+### PrometAI (Investor-Facing Tool)
+link: https://prometai.app/<img width="436" height="44" alt="image" src="https://github.com/user-attachments/assets/8e1cfbf6-1a3c-4198-b0f8-a50baa6b8e79" />
+
+PrometAI emphasizes investor-oriented outputs, such as:
+- Financial narratives
+- Market sizing (TAM/SAM/SOM)
+- Funding presentation materials
+
+What It Does Well
+- Helps structure investor pitch materials
+- Supports financial storytelling
+
+Limitations
+- Focuses on isolated tasks rather than end-to-end decision pipelines
+- Does not connect idea validation, market conditions, and operational feasibility
+- No integrated critique or multi-agent collaboration mechanism
+
+### Key Gap We Address
+Across these tools, we observe a consistent pattern:
+- Some tools provide guidance.
+- Some tools generate documentation.
+- Some tools support investor materials.
+
+However, none provide:
+- Locally grounded feasibility analysis
+- Coordinated multi-domain reasoning (market + finance + operations)
+- Iterative critique and refinement
+- End-to-end decision support from idea to structured launch plan
+
+## Initial Concept and Value Proposition
+### Core Idea
+We propose a multi-agent AI assistant that simulates collaboration between domain experts to generate realistic restaurant launch planning guidance.
+
+### Initial System Design
+The system will use specialized agents such as:
+- Market Agent → Local demand + competition summary
+- Finance Agent → Startup + operating cost estimation
+- Operations Agent → Staffing + equipment + workflow planning
+- Critic Agent → Identifies risks, unrealistic assumptions, and blind spots
+The outputs from these agents are combined into a final structured restaurant launch plan.
+
+### Value Proposition
+Compared to existing tools, our system aims to provide:
+- More realistic planning through multi-domain reasoning
+- More trustworthy outputs via critique-based refinement
+- More useful results via local context grounding
+- Faster early-stage decision making for founders
+
+## Milestones + Roles (Initial)
+### Milestone 1 — CP1: Research + Proposal + Repo Setup
+
+Deliverables:
+- Literature review
+- Problem framing
+- Initial system design
+
+### Milestone 2 — CP2: Prompting Validation + Prototype
+
+Deliverables:
+- Multi-agent prompt system
+- Baseline comparison (single-agent vs multi-agent)
+- Initial demo outputs
+
+### Milestone 3 — Final: Working Prototype + Evaluation
+
+Deliverables:
+- Simple UI demo
+- Structured planning output
+- Evaluation of output quality
+
+### Team Roles 
+From now on, we would work and go further together on every part.
